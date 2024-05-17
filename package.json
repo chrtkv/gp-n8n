@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Library for GP",
   "main": "src/index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "jest"
   },

@@ -1,4 +1,4 @@
-import { convertAndNormalizePrice } from "../src";
+const { convertAndNormalizePrice } = require('../src/index');
 
 describe('Test Price Conversion', () => {
   it('should convert and normalize price', () => {

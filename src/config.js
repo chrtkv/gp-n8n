@@ -17,4 +17,7 @@ const rates = [
 
 const multiplyingFactor = 1.05;
 
-export { rates, multiplyingFactor };
+module.exports = {
+  rates,
+  multiplyingFactor,
+};

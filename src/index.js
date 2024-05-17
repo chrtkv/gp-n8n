@@ -1,4 +1,4 @@
-import { multiplyingFactor, rates } from './config.js';
+const { multiplyingFactor, rates } = require('./config');
 
 const convertAndNormalizePrice = (price) => {
   if (price === 0) {
@@ -20,4 +20,6 @@ const convertAndNormalizePrice = (price) => {
     : ninetyEndedPrice + 100;
 };
 
-export { convertAndNormalizePrice };
+module.exports = {
+  convertAndNormalizePrice
+};
