@@ -4,7 +4,7 @@ describe('Test Price Conversion', () => {
   it('should convert and normalize price', () => {
     expect(convertAndNormalizePrice(0)).toEqual(0);
     expect(convertAndNormalizePrice(23)).toEqual(290);
-    expect(convertAndNormalizePrice(5000)).toEqual(19490);
+    expect(convertAndNormalizePrice(5000)).toEqual(18690);
   });
 
   test('should converted price to end with 90', () => {

@@ -12,7 +12,9 @@ const rates = [
   { maxPrice: 1198, rate: 4 },
   { maxPrice: 1498, rate: 3.9 },
   { maxPrice: 1898, rate: 3.8 },
-  { maxPrice: Infinity, rate: 3.7 }
+  { maxPrice: 2499, rate: 3.6 },
+  { maxPrice: 2799, rate: 3.58 },
+  { maxPrice: Infinity, rate: 3.55 }
 ];
 
 const multiplyingFactor = 1.05;
